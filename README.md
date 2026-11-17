@@ -4,6 +4,15 @@ Plugin de Claude para llevar una tesis cuantitativa de principio a fin dentro de
 
 Versión 0.3.0. Identificador del plugin: `thesis-management-assistant`. El nombre es en inglés; todo el contenido está en español.
 
+## Ediciones
+
+Este repositorio contiene dos ediciones del mismo plugin, con las mismas skills, plantillas y reglas:
+
+- **Edición completa**, en la raíz del repositorio. Incluye las dieciséis utilidades en Python de `scripts/` y sus pruebas de regresión. Se instala desde el marketplace de este repositorio (ver "Primer uso").
+- **Edición del directorio**, en `edicion-directorio/`. No contiene programas ejecutables, porque el directorio de plugins de Claude solo acepta archivos de texto, JSON, YAML e imágenes de autores no verificados. Claude hace los mismos cálculos con la herramienta de ejecución de código de la sesión, según los métodos documentados en `edicion-directorio/shared/metodos/`, cada uno con casos de control obtenidos de las utilidades de la edición completa.
+
+Instala solo una de las dos: comparten nombre y skills. Un cambio en las skills, las plantillas o las reglas se aplica en ambas.
+
 ## Para quién es
 
 Para tesistas de licenciatura, maestría o doctorado con un estudio cuantitativo: experimental, cuasiexperimental, observacional o de simulación. La investigación cualitativa queda fuera del alcance.
@@ -98,6 +107,7 @@ thesis-management-assistant/
 ├── docs/Manual_Usuario.md
 ├── evals/       casos de evaluación del comportamiento
 ├── tests/       pruebas de regresión de las utilidades
+├── edicion-directorio/  edición sin programas para el directorio de plugins de Claude
 ├── CONNECTORS.md
 ├── LICENSE
 └── README.md

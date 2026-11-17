@@ -1,0 +1,12 @@
+{
+  "_nota": "Plantilla. Sustituye RESPUESTA_x por identificadores del diccionario de variables. Los límites L, T y U se fijan con el rango real de los datos o con un requisito externo, antes de mirar el ranking. Mientras valgan null, el cálculo se detiene: no se inventan. Los pesos salen de la comparación por pares (AHP) con CR < 0.10.",
+  "id": "alternativa",
+  "respuestas": {
+    "RESPUESTA_1": {"tipo": "max", "L": null, "T": null, "s": 1, "peso": null},
+    "RESPUESTA_2": {"tipo": "min", "T": null, "U": null, "s": 1, "peso": null},
+    "RESPUESTA_3": {"tipo": "objetivo", "L": null, "T": null, "U": null, "s": 1, "t": 1, "peso": null}
+  },
+  "factibilidad": [
+    {"columna": "RESPUESTA_4", "op": ">=", "valor": null, "motivo": "condición que toda alternativa debe cumplir para competir"}
+  ]
+}

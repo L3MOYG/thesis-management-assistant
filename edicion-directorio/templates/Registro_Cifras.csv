@@ -1,0 +1,10 @@
+# Registro de cifras canónicas. Una cifra solo cambia aquí y se propaga a todos los documentos en la misma sesión.
+# Columnas: id, valor, unidad, descripcion, patron.
+# patron es una expresión regular con UN grupo de captura para el número. Si contiene comas, va entre comillas dobles.
+# Las líneas que empiezan con # se ignoran. Auditoría: pide al asistente que audite las cifras del registro contra las carpetas del proyecto
+#
+# Ejemplos ficticios (borra el # inicial y adapta):
+# N_UNIDADES,48,parcelas,Unidades experimentales de la fase de campo,(\d+)\s+parcelas
+# GL_ERROR,33,gl,Grados de libertad del error del modelo principal,(\d+)\s+grados de libertad del error
+# ALFA,0.05,,Nivel de significancia,"α\s*=\s*([\d.,]+)"
+id,valor,unidad,descripcion,patron
