@@ -20,11 +20,13 @@ El estado de la tesis vive en archivos del Project (`00_Gobierno/Ficha_Proyecto.
 
 ## Primer uso
 
-1. Instala el plugin. Desde un archivo: Customize, Plugins, Add. Desde un marketplace, cuando el plugin esté publicado en uno:
+1. Instala el plugin. Desde un archivo: Customize, Plugins, Add. Desde su marketplace en GitHub, con Claude Code 2.1.275 o posterior:
 
    ```
-   /plugin install thesis-management-assistant --marketplace <propietario>/<repositorio>
+   /plugin install thesis-management-assistant --marketplace L3MOYG/thesis-management-assistant
    ```
+
+   En versiones anteriores, en dos pasos: `/plugin marketplace add L3MOYG/thesis-management-assistant` y después `/plugin install thesis-management-assistant@thesis-management-assistant`.
 2. En una conversación, escribe `/iniciar-tesis`. El asistente pide el tema, hace una entrevista breve, abre el panel de criterios de literatura, propone la pregunta unificadora y los pilares, genera el kit de archivos y guía la creación del Project.
 3. En el Project, abre un hilo por etapa con los mensajes de `00_Gobierno/Plan_Hilos.md`.
 

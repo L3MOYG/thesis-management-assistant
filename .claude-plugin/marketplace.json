@@ -1,0 +1,15 @@
+{
+  "name": "thesis-management-assistant",
+  "description": "Marketplace del plugin Thesis Management Assistant, asistente para tesis cuantitativas.",
+  "owner": {
+    "name": "Lemoy Gómez"
+  },
+  "plugins": [
+    {
+      "name": "thesis-management-assistant",
+      "source": "./",
+      "version": "0.3.0",
+      "description": "Asistente integral para tesis cuantitativas dentro de un Claude Project."
+    }
+  ]
+}

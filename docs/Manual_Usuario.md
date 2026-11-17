@@ -41,7 +41,7 @@ Lo que no hace: no escribe la tesis por ti, no inventa datos ni citas, no decide
 
 **Con el archivo `.plugin`.** Abre la aplicación de Claude, entra en Customize, después en Plugins, elige Add y selecciona el archivo `thesis-management-assistant.plugin`. Si recibes el plugin como una tarjeta de archivo dentro de una conversación, usa el botón Save plugin de la tarjeta. El plugin queda guardado en tu cuenta.
 
-**Desde un repositorio.** Si quien distribuye el plugin lo publicó en un repositorio configurado como marketplace, añade ese marketplace desde el mismo menú o, en Claude Code, con `/plugin install thesis-management-assistant --marketplace <propietario>/<repositorio>`.
+**Desde un repositorio.** El plugin está publicado en el repositorio `L3MOYG/thesis-management-assistant`, que es también su marketplace. Añade ese marketplace desde el mismo menú o, en Claude Code 2.1.275 o posterior, con `/plugin install thesis-management-assistant --marketplace L3MOYG/thesis-management-assistant`. En versiones anteriores: `/plugin marketplace add L3MOYG/thesis-management-assistant` y después `/plugin install thesis-management-assistant@thesis-management-assistant`.
 
 **En una organización.** Un administrador puede poner el plugin a disposición de todos o instalarlo por defecto.
 
