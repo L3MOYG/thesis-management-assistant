@@ -69,7 +69,7 @@ El autor elige, combina o reescribe. Si propone algo que los recursos declarados
 
 ## Paso 5. Generar el kit
 
-1. Crea la estructura de carpetas, las plantillas y el libro del corpus como indica `../../shared/metodos/kit-y-auditoria.md`, secciones 1 y 2. Si no puedes ejecutar código, crea las carpetas y copia las plantillas de `../../templates/` a mano, con los mismos nombres, y deja el libro del corpus por confirmar.
+1. Crea la estructura de carpetas, las plantillas y el libro del corpus como indica `../../shared/metodos/kit-y-auditoria.md`, secciones 1 y 2. Si no puedes ejecutar código, crea las carpetas y copia las plantillas de `../../templates/` a mano, con los mismos nombres; de `Registro_Cifras.md` y `Diccionario_Variables.md` escribe solo el contenido de su bloque en los archivos `.csv` de destino. Deja el libro del corpus por confirmar.
 2. Completa `00_Gobierno/Ficha_Proyecto.md` con lo recogido. Cada campo sin respuesta conserva "por confirmar" y su consulta.
 3. Guarda la selección del panel en `01_Literatura/criterios_literatura.json`, con el formato de `../../shared/panel-de-criterios.md`, sección "Cómo guardar la selección", y copia a la sección 4 de la Ficha la tabla de la selección. Los filtros que el autor no eligió quedan en null y por confirmar.
 4. Completa `01_Literatura/Protocolo_Busqueda.md` con la pregunta, los pilares y los bloques elegidos.

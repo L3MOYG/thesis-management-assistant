@@ -33,12 +33,12 @@ Plantillas del plugin (`../../templates/`) y su destino:
 
 | Plantilla | Carpeta |
 |---|---|
-| Ficha_Proyecto.md, Registro_Decisiones.md, Registro_Cifras.csv, Plan_Hilos.md, Instrucciones_Project.md | 00_Gobierno |
+| Ficha_Proyecto.md, Registro_Decisiones.md, Registro_Cifras.md (se escribe como Registro_Cifras.csv), Plan_Hilos.md, Instrucciones_Project.md | 00_Gobierno |
 | Protocolo_Busqueda.md, criterios_literatura.json | 01_Literatura |
 | Mapa_Vacios.md, Cadena_Logica.md | 02_Planteamiento |
-| Plan_Analisis.md, Diccionario_Variables.csv, config_deseabilidad.json | 03_Metodologia |
+| Plan_Analisis.md, Diccionario_Variables.md (se escribe como Diccionario_Variables.csv), config_deseabilidad.json | 03_Metodologia |
 
-El manual (`../../docs/Manual_Usuario.md`) se copia a `00_Gobierno/Manual_Usuario.md`. Las plantillas se copian tal cual, sin rellenar.
+El manual (`../../docs/Manual_Usuario.md`) se copia a `00_Gobierno/Manual_Usuario.md`. Las plantillas se copian tal cual, sin rellenar, salvo `Registro_Cifras.md` y `Diccionario_Variables.md`: de cada una se escribe el contenido de su bloque, sin las cercas, en el archivo CSV de destino. Esas dos se guardan como Markdown porque el directorio de plugins no admite CSV; en el proyecto son CSV.
 
 ## 2. Libro del corpus
 
@@ -100,7 +100,7 @@ Se buscan las coincidencias de `por\s+confirmar`, sin distinguir mayúsculas, co
 
 ## Casos de control
 
-**Estructura.** En una carpeta vacía, la operación crea 13 carpetas con su LEEME, 12 plantillas, el manual y el libro del corpus, y no conserva nada. Repetida sobre la misma carpeta, no crea nada y conserva todo.
+**Estructura.** En una carpeta vacía, la operación crea 13 carpetas con su LEEME, 12 plantillas (entre ellas `00_Gobierno/Registro_Cifras.csv` y `03_Metodologia/Diccionario_Variables.csv`, cuya última línea es la fila de encabezados), el manual y el libro del corpus, y no conserva nada. Repetida sobre la misma carpeta, no crea nada y conserva todo.
 
 **Libro del corpus.** Las hojas son Corpus, Trazabilidad_busqueda, Obras_fundamentales y Casos_abiertos, con 21, 13, 11 y 8 columnas en la fila 4.
 
