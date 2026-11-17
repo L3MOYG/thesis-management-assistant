@@ -1,0 +1,19 @@
+{
+  "name": "thesis-management-assistant",
+  "displayName": "Thesis Management Assistant",
+  "version": "0.3.0",
+  "description": "Asistente integral para tesis cuantitativas dentro de un Claude Project: arranque guiado desde el tema, búsqueda científica trazable, corpus verificado, vacíos con evidencia, diseño con potencia calculada, análisis de datos, redacción con cohesión entre capítulos, artículo de revisión y preparación de la defensa.",
+  "author": {
+    "name": "Lemoy Gómez"
+  },
+  "license": "MIT",
+  "keywords": [
+    "tesis",
+    "investigación",
+    "metodología",
+    "estadística",
+    "revisión de literatura",
+    "diseño de experimentos",
+    "redacción académica"
+  ]
+}

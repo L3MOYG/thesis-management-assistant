@@ -1,0 +1,12 @@
+# Dependencias de las utilidades de Thesis Management Assistant.
+# Instalación:  pip install -r requirements.txt
+# Solo con la biblioteca estándar funcionan: validar_ecuacion.py, verificar_doi.py, auditar_documentos.py
+# (salvo la lectura de .xlsx), crear_estructura.py y matriz_corridas.py con salida .csv.
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+statsmodels>=0.14
+openpyxl>=3.1
+networkx>=3.0
+# Opcional, solo para la figura PNG de red_coocurrencia.py:
+# matplotlib>=3.7

@@ -1,0 +1,20 @@
+# Resultados de claude plugin eval
+evals/results/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Temporales y archivos de sistema
+*.tmp
+*.bak
+*.swp
+~$*
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Paquete generado: se distribuye aparte, no dentro del repositorio
+*.plugin

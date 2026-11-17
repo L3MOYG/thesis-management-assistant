@@ -1,0 +1,17 @@
+{
+  "_nota": "Selección del autor en el panel de criterios. null significa \"por confirmar\": el filtro no se ha elegido y la utilidad no lo supone. \"sin_filtro\" (o 0 en los numéricos) es una elección.",
+  "version": 1,
+  "perfil": null,
+  "fecha_seleccion": null,
+  "filtros": {
+    "acceso": null,
+    "cuartil": null,
+    "ventana": null,
+    "tipos": null,
+    "idiomas": null,
+    "max_por_primer_autor": null,
+    "retractadas": null,
+    "citas_minimas": null,
+    "umbral_depuracion": null
+  }
+}
